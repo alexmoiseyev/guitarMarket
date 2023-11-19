@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/style.css">
+    
     <title>Contacts</title>
 </head>
 <body>
@@ -39,12 +40,12 @@
             <div class="container">
                 <h1 class="form__title main__title">Связаться с нами:</h1>
                 
-                <form action="#" class="form__block">
+                <form name="contact__form" method="post" action="#" class="form__block" onsubmit="return false;">
                     <h2>Заполните форму обратной связи:</h2>
                     <input type="text" name="name" placeholder="Ваше имя" class="form__block-item">
                     <input type="tel" name="phone" placeholder="Номер телефона" class="form__block-item">
                     <br>
-                    <button type="button" id="myBtn">Отправить</button>
+                    <button type="submit" id="myBtn">Отправить</button>
                 </form>
             </div>
             <div id="myModal" class="modal">
