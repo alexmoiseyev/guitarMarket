@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Contacts</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header__block">
+                    <ul class="header__menu">
+                        <li class="header__menu-item">
+                            <a href = "../index.html">Главная</a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href = "#">О нас</a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href = "#">Каталог</a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href = "#">Отзывы</a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href = "#">Контакты</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <div class="form">
+            <div class="container">
+                <h1 class="form__title main__title">Связаться с нами:</h1>
+                
+                <form action="#" class="form__block">
+                    <h2>Заполните форму обратной связи:</h2>
+                    <input type="text" name="name" placeholder="Ваше имя" class="form__block-item">
+                    <input type="tel" name="phone" placeholder="Номер телефона" class="form__block-item">
+                    <br>
+                    <button type="button" id="myBtn">Отправить</button>
+                </form>
+            </div>
+            <div id="myModal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <p>Данные переданы</p>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="container">
+                <ul class="contacts">
+                    <li class="contact">Выполнил: Моисеев Алексей Дмитриевич</li>
+                    <li class="contact">Студент группы КСП-216</li>
+                </ul>
+                <ul class="map_list">
+                    <li class="map_list-item">
+                        <a href = "../index.html">Главная</a>
+                    </li>
+                    <li class="map_list-item">
+                        <a href = "#">О нас</a>
+                    </li>
+                    <li class="map_list-item">
+                        <a href = "#">Каталог</a>
+                    </li>
+                    <li class="map_list-item">
+                        <a href = "#">Отзывы</a>
+                    </li>
+                    <li class="map_list-item">
+                        <a href = "#">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
